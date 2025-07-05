@@ -1,0 +1,24 @@
+div:nth-child(1)>p:nth-child(1){
+  color: red;
+  background-color: greenyellow;
+}
+div:nth-child(1)>p:nth-child(2){
+  color: white;
+  background-color: darkblue;
+}
+div:nth-child(1)>p:nth-child(3){
+  color: lightblue;
+  background-color: brown;
+}
+div:nth-child(2)>p:nth-child(1){
+  color: darkgreen;
+  background-color: yellow;
+}
+div:nth-child(2)>p:nth-child(2){
+  color: blue;
+  background-color: pink;
+}
+div:nth-child(2)>p:nth-child(3){
+  color: white;
+  background-color: orangered;
+}
