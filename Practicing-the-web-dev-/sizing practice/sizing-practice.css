@@ -1,0 +1,40 @@
+html {
+  font-size: 16px;
+  border: 10px;
+  width: 100vw;
+  height: 100vh;
+  height: 20vmin;
+  
+}
+
+div {
+  
+  background-color: aquamarine;
+  font-size: 1.7rem;
+  /* width: 100vw;
+     height: 100vh;
+     height: 20vmin;
+    */
+}
+
+div>p {
+  background-color: yellow;
+  font-size: 1.9em;
+  width: 70%;
+  border: 3px solid green;
+  /*  width: 100vw;
+ height: 100vh;
+ height: 29vmax;
+  */
+}
+
+div:nth-child(2) {
+  background-color: red;
+}
+
+.para {
+  width: 30ch;
+  height: 30ex;
+  
+  
+}
