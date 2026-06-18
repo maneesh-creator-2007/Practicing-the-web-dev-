@@ -1,0 +1,10 @@
+div{
+  box-shadow: 5px 5px 15px 5px  blueviolet;
+  border: 3px solid cadetblue;
+  outline: 5px solid yellowgreen;
+  text-shadow: 5px 5px 3px #11FF1B;
+  outline-offset: 5px;
+}
+body{
+  background-color: darkred;
+}

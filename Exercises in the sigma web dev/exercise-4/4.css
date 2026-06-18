@@ -1,0 +1,36 @@
+:root{
+    --primary-color: lightblue;
+    --secondary-color: rgb(255, 197, 89);
+    --hover-color: rgb(255, 178, 34);
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: block;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 40px;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap:25px;
+    justify-content: center;
+}
+
+
+a{
+    text-decoration: none;
+   padding: 8px 12px;
+}
+ a:visited{
+        color: black;
+    }

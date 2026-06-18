@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicing the diaplay property</title>
+    <style>
+        div{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            padding: 20px;
+            margin: 20px;
+            border: 5px solid black;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        div:hover{
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            padding: 30px;
+            margin: 30px;
+            border: 10px solid black;
+            border-radius: 10px;
+            /* display:none; */
+            box-shadow: 5px 5px 5px rgb(29, 161, 91);
+        }
+
+        div.box-1{
+            background-color: rgb(255, 0, 0);
+            /* position:fixed; */
+        }
+
+          div.box-2{
+            background-color: rgb(20, 239, 78);
+             /* position:fixed; */
+        }
+
+          div.box-3{
+            background-color: rgb(73, 27, 224);
+             /* position:fixed; */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box-1">Lorem, ipsum dolor.</div>
+    <div class="box-2">lorem ipsum dolor sit amet.</div>
+    <div class="box-3">Lorem ipsum dolor sit.</div>
+</body>
+
+</html>
