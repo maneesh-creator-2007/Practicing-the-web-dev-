@@ -50,3 +50,8 @@ p{
     background-color: rgb(115, 202, 239);
     color: rgb(7, 107, 177);
 }
+button:hover{
+    background-color: rgb(7, 107, 177);
+    color: white;
+    cursor: pointer;
+}
